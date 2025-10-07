@@ -1,7 +1,7 @@
-Flask
-transformers
-torch
-requests
-python-dotenv
-gunicorn
-numpy
+Flask==2.3.3
+requests==2.32.5
+python-dotenv==1.1.1
+gunicorn==23.0.0
+transformers==4.37.4
+torch==2.2.1
+numpy==1.26.4
