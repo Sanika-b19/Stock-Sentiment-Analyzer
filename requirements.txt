@@ -1,0 +1,7 @@
+Flask
+transformers
+torch
+requests
+python-dotenv
+gunicorn
+numpy

@@ -1,0 +1,72 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 2em;
+  background: linear-gradient(to right, #e0eafc, #cfdef3);
+  backdrop-filter: blur(4px);
+  min-height: 100vh;
+}
+
+/* Input & Button */
+form input {
+  padding: 10px;
+  width: 250px;
+  border: none;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.3);
+  backdrop-filter: blur(8px);
+  color: #333;
+  outline: none;
+}
+
+button {
+  padding: 10px 20px;
+  background: rgba(0, 123, 255, 0.7);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  backdrop-filter: blur(8px);
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+button:hover {
+  background: rgba(0, 123, 255, 0.9);
+}
+
+/* Card styling */
+.card {
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 20px;
+  padding: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  box-shadow: 0 8px 32px rgba(31, 38, 135, 0.2);
+  backdrop-filter: blur(10px);
+  color: #000;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15);
+}
+
+/* Sentiment borders */
+.border-positive { border-left: 6px solid #28a745; }
+.border-negative { border-left: 6px solid #dc3545; }
+.border-neutral { border-left: 6px solid #ffc107; }
+
+/* Badge colors */
+.bg-positive { background-color: rgba(40, 167, 69, 0.8); }
+.bg-negative { background-color: rgba(220, 53, 69, 0.8); }
+.bg-neutral  { background-color: rgba(255, 193, 7, 0.8); color: #333; }
+
+/* Chart container */
+.glass-chart {
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  box-shadow: 0 8px 32px rgba(31, 38, 135, 0.2);
+  backdrop-filter: blur(10px);
+  padding: 20px;
+  margin-top: 10px;
+}
