@@ -37,4 +37,4 @@ def index():
     return render_template("dashboard.html", articles=articles, counts=sentiment_counts)
 
 if __name__ == "__main__":
-    app.run(debug=True)
+    app.run()
