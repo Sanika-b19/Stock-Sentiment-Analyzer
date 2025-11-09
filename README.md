@@ -11,4 +11,4 @@ A Flask-based web app that fetches real-time news and analyzes sentiment using H
 ## Run Locally
 ```bash
 pip install -r requirements.txt
-python app.py
+python main.py
